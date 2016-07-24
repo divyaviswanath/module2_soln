@@ -2,8 +2,88 @@
 <html>
 <head>
 	<title> hello divya </title>
+	
 </head>
+<style>
+
+* {
+	box-sizing: border-box;
+}
+.row
+{
+	width: 100%;
+}
+
+@media (min-width: 992px)
+{
+.col-lg-4
+{
+	float: left;
+	border: 3px solid black;
+	background-color: blue;
+	height:300px;
+	padding: 10px 10px 10px 10px;
+
+
+}
+.col-lg-4
+{
+	width: 33.33%;
+}
+}
+p
+{
+	margin: 10px 10px 10px 10px;
+	outline-color: black;
+	font-size: 40px;
+	text-align: right;
+}
+.p2
+{
+	border: 1px solid black;
+	outline-color: black;
+	font-size: 40px;
+	text-align: left;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+.col-md-6,.col-md-12
+{
+	float: left;
+	border: 3px solid black;
+	background-color: blue;
+	height:300px;
+	padding: 10px 10px 10px 10px;
+
+	outline-color: black;
+
+}
+.col-md-6
+{
+	width: 50%;
+}
+.col-md-12
+{
+	width: 100%
+}
+}
+#columns {
+        width: 450px;
+        float: left;
+        
+    }
+
+</style>
 <body>
-<h1> hello divya ,hello html!!</h1>
-</body> 
+<h1>COURSERA ASSIGNMENT 2</h1>
+<div class="row" >
+<div class="col-lg-4 col-md-6"><p>Harry Potter</p><div class=".p2">Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels chronicle the life of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, the Dark wizard who intends to become immortal, overthrow the Ministry of Magic, subjugate non-magic people (Muggles) and destroy anyone who stands in his way.</div>
+</div>
+
+<div class="col-lg-4 col-md-6"><p>A Game of Thrones</p><div class=".p2">A Game of Thrones is the first novel in A Song of Ice and Fire, a series of fantasy novels by American author George R. R. Martin. It was first published on August 6, 1996. The novel won the 1997 Locus Award[1] and was nominated for both the 1997 Nebula Award[1] and the 1997 World Fantasy Award.[2] The novella Blood of the Dragon, comprising the Daenerys Targaryen chapters from the novel, won the 1997 Hugo Award for Best Novella.</div></div>
+
+<div class="col-lg-4 col-md-12"><p>Percy Jackson</p><div class=".p2">Perseus "Percy" Jackson is a fictional character, the title character of Rick Riordan's Percy Jackson & the Olympians series and one of the main protagonists of the sequel series The Heroes of Olympus, appearing in every book except The Lost Hero, where he is the eponymous 'Lost' Hero. He also appears as a major character in the ongoing Trials of Apollo series, which follows the story after Heroes of Olympus, making him one of the few characters to appear in all three series of the Camp Half-Blood chronicles.</div></div>
+</div>
 </html>
